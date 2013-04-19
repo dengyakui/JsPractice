@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<script type="text/javascript">
+		
+		/*var arr=new Array();
+		arr=["子曰:","三人行","必有我师焉"];
+		
+		function myJoin(arr)
+		{
+			var t="";
+			for(var i=0;i<arr.length-1;i++)
+			{
+				t+=arr[i]+"|";
+			}
+			t+=arr[arr.length-1];
+			return t;
+		}
+		alert(myJoin(arr));*/
+		var arr=new Array();
+		arr=[0,1,2,3];
+		function myReverse(arr)
+		{
+				var t;
+			for(var i=0;i<(arr.length)/2;i++)
+			{
+				
+				t=arr[i];
+				
+				arr[i]=arr[arr.length-1-i];
+			
+				arr[arr.length-1-i]=t;
+			}
+			return arr;
+		}
+		alert(myReverse(arr).join("|"));
+		
+		
+		
+		
+		
+	</script>
+</head>
+<body>
+	fsdfsf
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<script type="text/javascript">
+	/*function Person(){};
+	var p1=new Person();
+	p1.name="张三";
+	p1.age="18";
+	p1.sex='男';
+	p1.sayhi=function(){alert('I am 张三.');};
+	
+	alert(p1.name);
+	alert(p1.age);
+	alert(p1["sex"]);
+	p1.sayhi();*/
+	function Person(name,age){
+	this.name=name;
+	this.age=age;
+	this.sayHi=function(){
+		alert("我叫"+name);
+		}
+	}
+	var p=new Person("ls",17);
+	p.sayHi();
+	
+	
+	function test(p)  //将person对象作为参数传递
+	{
+		alert(p.name);
+	}
+	
+	test(p);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

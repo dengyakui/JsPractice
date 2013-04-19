@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<script type="text/javascript">
+		var f1=function(num1,num2){  //第一种匿名函数的调用
+			return num1+num2;
+		};
+		alert(f1(2,3));
+		
+		(function(num1,num2){   //第二种
+		alert(num1+num2);
+		})(1,1);
+		
+		var f=Function("num1","num2","return num1+num2"); //第三种方式
+		alert(f(1,2));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
